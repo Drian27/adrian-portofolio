@@ -17,14 +17,13 @@ const Certificate = (props) => {
   return (
     <div>
       <div className="">
-        <img
+        {/* <img
           src={ImgSertif}
           alt="Img Sertif Eki"
           id="ImgSertif"
           onClick={handleOpen}
           className="cursor-pointer "
-        />
-        
+        /> */}
       </div>
       <Modal open={open} onClose={handleClose}>
         <div className="modal fixed inset-0 flex flex-col justify-center items-center bg-black bg-opacity-75">
@@ -40,7 +39,7 @@ const Certificate = (props) => {
           >
             <CloseIcon sx={{ fontSize: 52 , position: "relative"}} />
           </IconButton>
-          <img src={ImgSertif} alt="Sertifikat Eki" className="max-w-full max-h-full " />
+          {/* <img src={ImgSertif} alt="Sertifikat Eki" className="max-w-full max-h-full " /> */}
         </div>
       </Modal>
     </div>

@@ -19,9 +19,6 @@ import Slide from "@mui/material/Slide"
 
 function HideOnScroll(props) {
 	const { children, window } = props
-	// Note that you normally won't need to set the window ref as useScrollTrigger
-	// will default to window.
-	// This is only being set here because the demo is in an iframe.
 	const trigger = useScrollTrigger({
 		target: window ? window() : undefined,
 	})
@@ -35,10 +32,6 @@ function HideOnScroll(props) {
 
 HideOnScroll.propTypes = {
 	children: PropTypes.element.isRequired,
-	/**
-	 * Injected by the documentation to work in an iframe.
-	 * You won't need it on your project.
-	 */
 	window: PropTypes.func,
 }
 
@@ -68,7 +61,7 @@ function DrawerAppBar(props) {
 	const drawer = (
 		<Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
 			<Typography variant="h6" sx={{ my: 2 }} id="Navbar">
-				<b>EZR</b>
+				<b>DRIAN</b>
 			</Typography>
 			<Divider />
 			<List>
@@ -94,7 +87,7 @@ function DrawerAppBar(props) {
           sx={{
             backgroundColor: "rgba(0, 0, 0, 0)",
             backdropFilter: "blur(12px)",
-            px: ["2%", "8%"], // Responsive padding values
+            px: ["2%", "8%"],
             width: "100%",
             boxShadow: "none",
           }}
@@ -113,7 +106,7 @@ function DrawerAppBar(props) {
 							component="div"
 							sx={{ flexGrow: 1, display: { xs: "none", sm: "block", color: "#ced4d7" } }}
 							id="Navbar">
-							<b className="">EZR</b>
+							{/* <b className="">DRIAN</b> */}
 						</Typography>
 						<Box sx={{ display: { xs: "none", sm: "block" } }}>
 							{navItems.map((item) => (
@@ -132,7 +125,7 @@ function DrawerAppBar(props) {
 					open={mobileOpen}
 					onClose={handleDrawerToggle}
 					ModalProps={{
-						keepMounted: true, // Better open performance on mobile.
+						keepMounted: true,
 					}}
 					sx={{
 						display: { xs: "block", sm: "none" },
@@ -149,10 +142,6 @@ function DrawerAppBar(props) {
 }
 
 DrawerAppBar.propTypes = {
-	/**
-	 * Injected by the documentation to work in an iframe.
-	 * You won't need it on your project.
-	 */
 	window: PropTypes.func,
 }
 

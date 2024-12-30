@@ -26,7 +26,7 @@ const Home = () => {
               Hello There 👋
             </h5>
             <h1 className="md:text-6xl text-4xl text-[#ced4d7] font-bold mb-2 pr-[1%]" data-aos="fade-up" data-aos-duration="1000">
-              I’m EKI ZULFAR RACHMAN
+              I’m ADRIAN LIM
             </h1>
 
             <div data-aos="fade-up" data-aos-duration="1100">
