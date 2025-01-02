@@ -391,7 +391,7 @@ export default function FullWidthTabs() {
                 <PIcon PIcon="vercel.svg" Language="Vercel" />
                 <PIcon PIcon="MUI.svg" Language="Material UI" />
                 <PIcon PIcon="nextjs.svg" Language="NextJs" />
-                <PIcon PIcon="github.svg" Language="GitHub" />
+                <PIcon PIcon="git.svg" Language="Git" />
               </div>
             </div>
           </TabPanel>
