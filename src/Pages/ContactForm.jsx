@@ -40,7 +40,6 @@ const ContactForm = () => {
               <form
                 action="https://formsubmit.co/muhamaddrian05@gmail.com"
                 method="POST"
-                onSubmit={handleSubmit}
                 className=" md:p-1 p-0"
                 data-aos="fade-up"
                 data-aos-duration="1000"
