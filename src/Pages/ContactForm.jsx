@@ -40,6 +40,7 @@ const ContactForm = () => {
               <form
                 action="https://formsubmit.co/muhamaddrian05@gmail.com"
                 method="POST"
+                onSubmit={handleSubmit}
                 className=" md:p-1 p-0"
                 data-aos="fade-up"
                 data-aos-duration="1000"
@@ -108,6 +109,7 @@ const ContactForm = () => {
                 </div>
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" value="table" />
+                <input type="hidden" name="_next" value="https://adrian-portofolio-delta.vercel.app/" />
                 <button
                   type="submit"
                   className="text-center bg-[#ced4d7] text-[#212121] mb-20 font-semibold py-2 px-4 rounded-lg hover:bg-[#1f2937] hover:text-[#ced4d7] transition-all duration-200 ease-out"
