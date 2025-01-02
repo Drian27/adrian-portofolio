@@ -305,6 +305,7 @@ export default function FullWidthTabs() {
                     />
                   </div>
                 ))}
+
                 {/* {(showAllProjects ? projects : projects.slice(0, 6)).map(
                   (project, index) => (
                     <div
