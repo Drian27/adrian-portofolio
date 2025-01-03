@@ -6,10 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Home = () => {
-  const [text] = useTypewriter({
-    words: ["Student", "Front-End Developer"],
-    loop: {},
-  });
+  const text = "Web Developer";
 
   useEffect(() => {
     AOS.init();
